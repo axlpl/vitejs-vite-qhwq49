@@ -10,7 +10,7 @@ const value = ref<number>(0);
   <hr />
   <div class="content">
     <button @click="value += 1">+</button>
-    <h2>{{ value }}</h2>
+    <h2>App: {{ value }}</h2>
   </div>
   <hr />
   <input v-model.number="value" />

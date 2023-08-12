@@ -7,6 +7,6 @@ const value = ref<number>(0);
 <template>
   <div class="content">
     <button @click="value += 1">+</button>
-    <h2>{{ value }}</h2>
+    <h2>Counter: {{ value }}</h2>
   </div>
 </template>
